@@ -1,6 +1,8 @@
 header.header 
     nav.nav
-        a.nav_logo(href="") Airpods 
-        ul.nav_list   
+        a.nav__logo(href="") Airpods 
+        ul.nav__list   
             each link in links
-                li.nav_item=link
+                li.nav__item=link
+                a.nav.link(href="#")=link
+        button.nav__btn Beli

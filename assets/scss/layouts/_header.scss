@@ -1,0 +1,32 @@
+$header-height: 5rem;
+
+.header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top:0;
+    padding-block: 1.5rem;
+    padding-inline: 3.5rem;
+    height: $header-height;
+
+    .nav{
+        display: flex;
+        justify-content: space-between;
+
+        &__logo{
+            max-width: 1.5rem;
+            color: hsl(0, 0, 0);
+        }
+
+        &__menu{
+            display: flex;
+            column-gap: 2.5rem;
+        }
+
+        &__list{
+            display: flex;
+            column-gap: 1.5rem;
+        }
+    }
+}
+
